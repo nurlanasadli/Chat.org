@@ -1,0 +1,35 @@
+.chatify_logo {
+    width: 200px !important;
+    height: 150px !important;
+}
+.logo_dashboard{
+    display: flex;
+    height: 70px;
+    width: 80px;
+}
+.logo_dashboard img{
+    object-fit: contain;
+    margin-bottom: 7px;
+}
+.logo_header{
+    width: 200px !important;
+    height: 150px !important;
+}
+.app_logo{
+    display: flex;
+}
+.app_logo h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.welcome_logo{
+    width: 250px;
+    height: 150px;
+}
+.welcome_logo img{
+    object-fit: contain;
+    width: 200px;
+    height: 140px;
+    margin: 0 auto;
+}

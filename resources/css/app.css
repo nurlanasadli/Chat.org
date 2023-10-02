@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-color-scheme: dark) {
+    .dark\:bg-gray-900 {
+        background-color: whitesmoke !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark\:bg-gray-800\/50 {
+        background-color: #6875f5 !important;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    :hover.dark\:text-gray-400 {
+        color: #6875f5 !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark\:bg-red-800\/20 {
+        background-color: #1f2937 !important;
+    }
+}
+
+.stroke-red-500 {
+    stroke: white !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :hover.dark\:text-gray-400 {
+        color: rgb(156 163 175 / var(--tw-text-opacity));
+    }
+}
+
+.sm:fixed sm:top-0 sm:right-0 p-6 text-right {
+    border: 1px solid red !important;
+}
